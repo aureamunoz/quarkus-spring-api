@@ -51,6 +51,9 @@
                                         <include>org/springframework/beans/PropertyAccessException**</include>
                                         <include>org/springframework/beans/TypeConverter**</include>
                                         <include>org/springframework/beans/TypeMismatchException**</include>
+                                        <include>org/springframework/beans/BeanUtils**</include>
+                                        <include>org/springframework/beans/BeanInstantiationException**</include>
+                                        <include>org/springframework/beans/FatalBeanException**</include>
                                         <include>org/springframework/beans/factory/ObjectFactory**</include>
                                         <include>org/springframework/beans/factory/NoSuchBeanDefinitionException**</include>
                                         <include>org/springframework/beans/factory/NoUniqueBeanDefinitionException**</include>
@@ -58,6 +61,10 @@
                                         <include>org/springframework/beans/factory/config/AutowireCapableBeanFactory**</include>
                                         <include>org/springframework/beans/factory/config/DependencyDescriptor**</include>
                                         <include>org/springframework/beans/factory/support/AbstractBeanDefinition**</include>
+                                        <include>org/springframework/beans/factory/support/BeanDefinition**</include>
+                                        <include>org/springframework/beans/factory/ListableBeanFactory**</include>
+                                        <include>org/springframework/beans/factory/BeanFactory**</include>
+                                        <include>org/springframework/beans/factory/HierarchicalBeanFactory**</include>
                                     </includes>
                                 </filter>
                             </filters>

@@ -54,6 +54,8 @@
                                         <include>org/springframework/core/annotation/AnnotationAttributes**</include>
                                         <include>org/springframework/core/annotation/AnnotatedElementUtils**</include>
                                         <include>org/springframework/core/convert/TypeDescriptor**</include>
+                                        <include>org/springframework/core/env/EnvironmentCapable**</include>
+                                        <include>org/springframework/core/env/**PropertySource**</include>
                                         <include>org/springframework/util/StreamUtils**</include>
                                         <include>org/springframework/util/Assert**</include>
                                         <include>org/springframework/util/ClassUtils**</include>
@@ -72,14 +74,43 @@
                                         <include>org/springframework/core/NestedIOException**</include>
                                         <include>org/springframework/core/Ordered**</include>
                                         <include>org/springframework/core/OrderComparator**</include>
+                                        <include>org/springframework/core/DefaultParameterNameDiscoverer**</include>
+                                        <include>org/springframework/core/PrioritizedParameterNameDiscoverer**</include>
+                                        <include>org/springframework/core/KotlinDetector**</include>
+                                        <include>org/springframework/core/StandardReflectionParameterNameDiscoverer**</include>
+                                        <include>org/springframework/core/SpringProperties**</include>
+                                        <include>org/springframework/core/NativeDetector**</include>
+                                        <include>org/springframework/core/AttributeAccessor**</include>
+                                        <include>org/springframework/core/AliasRegistry**</include>
+                                        <include>org/springframework/core/style/ValueStyler**</include>
+                                        <include>org/springframework/core/style/ToStringStyler**</include>
                                         <include>org/springframework/core/annotation/AnnotationAwareOrderComparator**</include>
                                         <include>org/springframework/core/annotation/AnnotationUtils**</include>
                                         <include>org/springframework/core/annotation/OrderUtils**</include>
+                                        <include>org/springframework/core/annotation/AnnotationConfigurationException**</include>
+                                        <include>org/springframework/core/annotation/AnnotationFilter**</include>
+                                        <include>org/springframework/core/annotation/PackagesAnnotationFilter**</include>
+                                        <include>org/springframework/core/annotation/MergedAnnotation**</include>
+                                        <include>org/springframework/core/annotation/RepeatableContainers**</include>
+                                        <include>org/springframework/core/annotation/TypeMappedAnnotations**</include>
+                                        <include>org/springframework/core/annotation/AnnotationsProcessor**</include>
+                                        <include>org/springframework/core/annotation/AnnotationsScanner**</include>
+                                        <include>org/springframework/core/annotation/AttributeMethods**</include>
+                                        <include>org/springframework/core/annotation/IntrospectionFailureLogger**</include>
+                                        <include>org/springframework/core/annotation/MissingMergedAnnotation**</include>
+                                        <include>org/springframework/core/annotation/AbstractMergedAnnotation**</include>
                                         <include>org/springframework/core/io/AbstractResource**</include>
                                         <include>org/springframework/core/io/InputStreamResource**</include>
                                         <include>org/springframework/core/io/InputStreamSource**</include>
                                         <include>org/springframework/core/io/Resource**</include>
-                                        <include>org/springframework/core/io/support/ResourceRegion**</include>
+                                        <include>org/springframework/core/io/Resource**</include>
+                                        <include>org/springframework/core/io/ClassPathResource**</include>
+                                        <include>org/springframework/core/log/LogMessage**</include>
+                                        <include>org/springframework/core/io/support/ResourcePatternResolver**</include>
+                                        <include>org/springframework/core/io/support/SpringFactoriesLoader**</include>
+                                        <include>org/springframework/core/io/support/**PropertySourceFactory**</include>
+                                        <include>org/springframework/core/io/support/**PropertySource**</include>
+                                        <include>org/springframework/core/io/AbstractFileResolvingResource**</include>
                                         <include>org/springframework/lang/Nullable**</include>
                                         <include>org/springframework/lang/NonNull**</include>
                                         <include>org/springframework/util/Assert**</include>
@@ -90,6 +121,7 @@
                                         <include>org/springframework/util/PriorityOrdered**</include>
                                         <include>org/springframework/util/ResourceUtils**</include>
                                         <include>org/springframework/aot/hint/annotation/**</include>
+                                        <include>org/springframework/aot/AotDetector**</include>
                                     </includes>
                                     <artifact>org.springframework:spring-core</artifact>
                                 </filter>

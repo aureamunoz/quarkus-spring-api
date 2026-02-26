@@ -49,6 +49,8 @@
                                         <include>org/springframework/context/annotation/Bean**</include>
                                         <include>org/springframework/context/annotation/Configuration**</include>
                                         <include>org/springframework/context/annotation/Scope**</include>
+                                        <include>org/springframework/context/Lifecycle**</include>
+                                        <include>org/springframework/test/context/ContextLoadException**</include>
                                         <include>org/springframework/stereotype/Component**</include>
                                         <include>org/springframework/stereotype/Indexed**</include>
                                         <include>org/springframework/stereotype/Repository**</include>
@@ -58,6 +60,7 @@
                                         <include>org/springframework/scheduling/annotation/Schedules**</include>
                                         <!-- Transitive dependencies -->
                                         <include>org/springframework/context/ApplicationContext**</include>
+                                        <include>org/springframework/context/ConfigurableApplicationContext**</include>
                                         <include>org/springframework/context/ApplicationEvent**</include>
                                         <include>org/springframework/context/ApplicationEventPublisher**</include>
                                         <include>org/springframework/context/MessageSource**</include>
